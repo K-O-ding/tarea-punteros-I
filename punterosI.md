@@ -165,6 +165,11 @@ Segmentation fault`. Esto ocurre debido a que no se puede modificar un valor de 
 
 ---
 
+#### Respuestas
+1. Realizado.
+2. Realizado.
+3. Realizado. el arreglo antes del cambio es `1 2 3 4 5`, luego del cambio es `1 20 3 4 50`.
+
 ## 09. Aritmética de Punteros
 
 **Objetivo:** Comprender cómo se mueven los punteros en memoria.
