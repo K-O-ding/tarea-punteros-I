@@ -129,6 +129,12 @@ direccion de char: aH@
 3. ¿Qué pasa si intentas modificar una letra en cada caso?
 
 ---
+#### Respuestas
+1. Realizado
+2. Se imprimieron correctamente ambos "Hola", sin embargo se muestra una advertencia: `ISO C++ forbids converting a string constant to 'char*'[-Wwrite-strings]gcc
+(const char [5])"Hola"`. La advertencia significa que le estoy pasando al puntero (modificable) la dirección de memoria de un `const char` (no modificable). Se puede evitar esta advertencia declarando al puntero como `const char*`.
+3. Sí es posible modificar `saludo`, sin embargo, al intentar modificar `saludo2` se muestra el error `Exception has occurred.
+Segmentation fault`. Esto ocurre debido a que no se puede modificar un valor de tipo constante (`const char`).
 
 ## 07. Punteros Nulos y Buenas Prácticas
 
