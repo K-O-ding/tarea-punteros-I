@@ -207,6 +207,12 @@ Segmentation fault`. Esto ocurre debido a que no se puede modificar un valor de 
 
 ---
 
+#### Respuestas
+1. Realizado.
+2. Realizado.
+3. Realizado.
+4. Al ejecutar el programa, los tiempos de ejecución para las funciones `modificarPorCopia` y `modificarPorPuntero` son de `28 microsegundos` y `9 microsegundos`, respectivamente. La función por puntero es más rápida, debido a que no tiene que invertir tiempo en reservar memoria para un nuevo arreglo (`arr_local`) de tamaño 1000, ni tampoco tiene que copiar cada elemento del arreglo original (`arr`) al arreglo `arr_local`.
+
 ```cpp
 // Use los siguientes prototipos
 void modificarPorPuntero(int* arr, size_t size);
