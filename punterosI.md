@@ -75,6 +75,20 @@ aHpf
 
 ---
 
+#### Respuestas
+1. Realizado.
+2. Realizado.
+3. Los valores y las direcciones de las variables son:
+```
+valor de entero: 5
+valor de float: 3.14
+valor de char: a
+
+direccion de entero: 0x5ffe34
+direccion de float: 0x5ffe30
+direccion de char: aH@
+```
+
 ## 04. Operadores de Referencia (&) y Desreferencia (*)
 
 **Objetivo:** Usar `&` y `*` correctamente.
