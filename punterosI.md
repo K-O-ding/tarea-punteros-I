@@ -100,6 +100,10 @@ direccion de char: aH@
 
 ---
 
+#### Respuestas
+1. Realizado.
+2. El valor original es 5, luego de llamar a la función el valor impreso es 10.
+
 ## 05. Puntero a Puntero (Doble Puntero)
 
 **Objetivo:** Comprender el uso de dobles punteros.
