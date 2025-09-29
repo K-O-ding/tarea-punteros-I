@@ -114,6 +114,10 @@ direccion de char: aH@
 2. Asigna los valores de forma encadenada y muestra el contenido final usando `**`.
 ---
 
+#### Respuestas
+1. Realizado.
+2. Se utilizó `**` para acceder e imprimir el valor final, cuyo valor es 5.
+
 ## 06. Punteros y Cadenas de Caracteres
 
 **Objetivo:** Entender cómo funcionan los punteros con `char[]` y `char *`.
