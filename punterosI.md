@@ -182,7 +182,11 @@ Segmentation fault`. Esto ocurre debido a que no se puede modificar un valor de 
 4. ¿Qué sucede si haces `*(p + 5)`?
 
 ---
-
+#### Respuestas
+1. Realizado.
+2. Realizado.
+3. Realizado.
+4. El programa se ejecuta sin advertencias ni errores. En la ejecución imprime `0`, pero al ser un valor que no pertenece al arreglo, es un valor indeterminado.
 
 ## 10. Eficiencia en el uso de Punteros
 
