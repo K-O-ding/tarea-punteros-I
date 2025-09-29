@@ -55,6 +55,14 @@ aHpf
 2. Declara un puntero `int *p` y haz que apunte a `a`.
 3. Imprime el valor de `a` usando `*p` y la dirección con `p`.
 ---
+#### Respuestas
+1. Realizado
+2. Realizado
+3. El valor y dirección de `a` que se imprimieron son:
+```
+10
+0x5ffe44
+```
 
 ## 03. Declaración de Punteros
 **Objetivo:** Declarar punteros de diferentes tipos.
