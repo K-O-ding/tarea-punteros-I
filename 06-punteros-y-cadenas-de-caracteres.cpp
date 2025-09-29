@@ -6,7 +6,8 @@ int main(){
 
     // Se declara la cadena como arreglo y como puntero
     char saludo[] = "Hola";
-    char *saludo2 = "Hola";
+    char *saludo2 = "Hola"; // Aqui se muestra la advertencia "ISO C++ forbids converting a string constant to 'char*'"
+
 
     // Se imprime cada letra de 'saludo' usando aritmetica de punteros
     for (int i = 0; i < strlen(saludo); i++)
