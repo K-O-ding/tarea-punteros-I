@@ -148,6 +148,11 @@ Segmentation fault`. Esto ocurre debido a que no se puede modificar un valor de 
 
 ---
 
+#### Respuestas 
+1. Realizado. No se muestran advertencias ni errores. Sin embargo, cabe resaltar que al desreferenciar un puntero que apunta una dirección aleatoria puede ocasionar un error `Segmentation fault` o corrupcion de datos.
+2. Al asignar `nullptr` al puntero ocurre un error `Segmentation fault` en la línea `*p = 5`, debido a que no se puede modificar el valor de `nullptr`. Esto se puede evitar asignandole la dirección de memoria de un entero (`int`) declarado previamente.
+3. Realizado.
+
 ## 08. Puntero y Arreglos Unidimensionales
 
 **Objetivo:** Usar punteros para acceder y modificar arreglos.
