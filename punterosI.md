@@ -241,7 +241,29 @@ void modificarPorCopia(int arr[], size_t size); // se simula copia dentro de la 
 void modificarPorReferencia(int& ref);
 void modificarPorPuntero(int* ptr);
 ```
+---
+#### Respuestas
+1. Realizado.
+2. Realizado.
+3. Realizado.
+4. Realizado.
+5. #### Ventajas del paso por referencia:
+- Hay más claridad al codificar el paso de la variable a la función, solo se tiene que pasar como un valor normal.
+- Las referencias no pueden ser `nullptr` lo que elimina los errores típicos en estos casos.
+- Ya que la referencia evita la copia de la variable, es más eficiente que el paso por valor.
 
+#### Desventajas del paso por referencia:
+- Debido a que se pasa la función como si fuera un paso por valor común, no se sabe si la función está modificando al valor o no.
+- Las referencias no pueden asignarse a otra variable.
+
+#### Ventajas del paso por puntero:
+- Un puntero puede ser `nullptr` (lo que significa que el argumento es opcional).
+- Se puede usar aritmética de punteros y la reasignación para apuntar a diferentes variables.
+- El uso del operador `&` deja claro que la función puede modificar el valor de la variable.
+
+#### Desventajas del paso por puntero:
+- Si el puntero no se valida antes de la desreferenciación, puede ocurrir un error `segmentation fault`.
+- Al usar los operadores de desreferencia (`*` o `->`), hace la codificación más propensa a errores tipográficos.
 
 ## 12. Ejercicios adicionales
 
