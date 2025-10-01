@@ -302,8 +302,8 @@ int contarCaracter(const char* str, char objetivo);
 ### 4. Buscar subcadena (implementación de strstr)
 Escribe una función que busque si una subcadena está contenida dentro de otra cadena, usando únicamente punteros.
 
-"estamos" contiene "amo" → posición 3
-"estamos" no contiene "zzz" → -1
+- "estamos" contiene "amo" → posición 3
+- "estamos" no contiene "zzz" → -1
 
 ### 5. Eliminar espacios de una cadena (in-place)
 Escribe una función que elimine todos los espacios de una cadena (char*) modificándola in-place.
